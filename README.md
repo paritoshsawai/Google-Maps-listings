@@ -1,4 +1,5 @@
 # Google Maps Listings
+<img width="1199" height="527" alt="Screenshot 2026-04-25 at 23 11 25" src="https://github.com/user-attachments/assets/9684042d-4481-405a-a584-af4413697925" />
 
 A polished local lead-generation app that scrapes Google Maps for businesses that do not have a website.
 
@@ -14,6 +15,7 @@ Built as a portfolio project, this app combines browser automation, a simple Pyt
 - Uses no Google Maps API key
 
 ## Demo Highlights
+<img width="1447" height="787" alt="Screenshot 2026-04-25 at 23 11 01" src="https://github.com/user-attachments/assets/c11ce6dc-340e-45ab-b22e-5c6f4d667de7" />
 
 - Enter a business type such as `takeaway`, `plumbers`, `dentists`, or `cafes`
 - Enter any location such as `London`, `Manchester`, `Dubai`, or `New York`
@@ -25,6 +27,7 @@ Built as a portfolio project, this app combines browser automation, a simple Pyt
   - individual business inspection
   - newly found no-website listings
 - Review the final table and saved CSV output
+<img width="1227" height="700" alt="Screenshot 2026-04-25 at 23 11 11" src="https://github.com/user-attachments/assets/5a35249b-b1a5-4d8c-949b-bbba914bd075" />
 
 ## Tech Stack
 
