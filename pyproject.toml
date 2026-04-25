@@ -1,0 +1,27 @@
+[project]
+name = "google-maps-listings"
+version = "0.1.0"
+description = "Google Maps scraper for businesses without a website"
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.50",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+run_google_maps_agent = "job_monitor.google_maps_agent:main"
+run_google_maps_web = "job_monitor.google_maps_web:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["job_monitor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
